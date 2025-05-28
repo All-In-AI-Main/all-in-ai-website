@@ -1034,8 +1034,19 @@ section {
   margin-top: 12px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
+
+  flex-wrap: wrap;                
+  justify-content: space-between;  
+  gap: 0.5rem 1rem;               
+}
+
+.team .member .social p {
+  flex: 1 1 30%;    
+  margin: 0;        
+  line-height: 1.4;
+}
+
 .team .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
