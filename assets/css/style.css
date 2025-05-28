@@ -1034,8 +1034,6 @@ section {
   margin-top: 12px;
   display: flex;
   align-items: center;
-}
-
   flex-wrap: wrap;                
   justify-content: space-between;  
   gap: 0.5rem 1rem;               
